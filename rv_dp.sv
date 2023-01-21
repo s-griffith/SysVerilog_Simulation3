@@ -77,7 +77,7 @@
  logic [DPWIDTH-1:0] datad;
  always_comb
     case (wbsel)
-		WB_addi:	datad = alu2data;
+		WB_ADDI:	datad = alu2data;
         WB_MDR:     datad = mdr;
         WB_ALUOUT:  datad = aluout;
         WB_PC:      datad = pc;

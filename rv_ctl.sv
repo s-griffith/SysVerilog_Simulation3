@@ -188,7 +188,7 @@ sm_type current,next;
 		ADDI_WB: begin
 			asel		= ALUA_ADD;
 			bsel 		= ALUB_CONSTXOR;
-			wbsel 		= WB_addi;
+			wbsel 		= WB_ADDI;
 			alusel		= ALU_XOR;
             regwen  	= 1'b1;
 		end

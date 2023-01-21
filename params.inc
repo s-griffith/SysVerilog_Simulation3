@@ -52,5 +52,5 @@
     WB_MDR      = 2'b00,
     WB_ALUOUT   = 2'b01,
     WB_PC       = 2'b10,
-	WB_addi		= 2'b11;
+	WB_ADDI		= 2'b11;
 
